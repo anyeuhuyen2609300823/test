@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper { 
+    width: 980px;
+    height: 860px;
+    margin: 0 auto;
+    background: #CCCCCC;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+}
+.flex_1 {
+    display:flex;
+    flex-direction: column;
+}
+header { 
+    width: 980px; 
+    height: 150px; 
+}
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background: #efeeeecd;
+    width: 980px;
+    height: 50px;
+    margin:0 auto;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: orangered;
+}
+
+main {
+    width: 980px;
+    height: 560px;
+    margin:0 auto;
+    background: #efeeeecd;
+}
+article {
+    width: 680px;
+    height: 510px;
+    float: left;
+    text-align: center;
+}
+article h1 {
+    padding: 20px 0 0 0;
+    font-size: 25px;
+    color:blue;
+}
+
+article form {
+    width: 550px;
+    height: 300px;
+    text-align: right;
+    padding-top:10px;    
+}
+article form input {
+    padding:3px 7px;
+    margin: 5px 0;
+}
+
+article img {
+    width: 100%;
+    height: 100px;
+}
+
+aside {
+    width: 300px;
+    height: 510px;
+    float: left;
+}
+
+.check {
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    margin: 0 30px;
+    float: left;
+}
+
+.check label {
+    width: 200px;
+    text-align: left;
+}
+
+.check label input {
+    text-align: left;
+    margin: 0 30px;
+}
+
+aside img {
+    width: 100%;
+    height: 500px;
+}
+footer {
+    width: 980px;
+    height: 100px;
+    margin:0 auto;
+    line-height: 40px;
+    text-align: center;
+}
+hr {
+    background: blue;
+}
+
+.submit {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
