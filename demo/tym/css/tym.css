@@ -29,6 +29,9 @@ body {
 	animation: yeuhuyen 1s infinite;
 }
 
+
+/* Tạo hình trái tim  */
+
 .tym__sub:before, .tym__sub:after {
 	content: '';
 	position: absolute;
@@ -69,7 +72,7 @@ body {
 
 
 
-/* demo */
+/* backgroud */
 html {
     font: 5vmin/1.3 Serif;
     overflow: hidden;
