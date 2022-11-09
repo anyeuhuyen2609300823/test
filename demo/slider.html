@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider {
+            width: 900px;
+            height: 500px;
+        }
+        .slider>img {
+            width: 900px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/12/20/Nhung-buc-anh-dep-nhat-2016-chia-se-tren-Flickr_4.jpg" 
+        alt=""
+        id="anh"
+        onclick="onChange()"
+        >
+    </div>
+</body>
+</html>
+<script>
+    var avt = [
+        'http://khoahocphattrien.vn/Images/Uploaded/Share/2016/12/20/Nhung-buc-anh-dep-nhat-2016-chia-se-tren-Flickr_4.jpg',
+        'https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg'
+    ];
+    var image = 1;
+    onChange = function () {
+        let images = document.getElementById('anh');
+        images.src = avt[image];
+        image ++;
+        if (image >= avt.length) {
+            image = 0;
+        }
+    };
+    setInterval(onChange,3000);
+</script>
